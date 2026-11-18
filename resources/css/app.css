@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import './dashboard.css';
+@import './dashboard-overview.css';
+@import './dashboard-charts.css';
+@import './dashboard-monitoring.css';
+@import './dashboard-details.css';
+@import './dashboard-insights.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+
+@theme {
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
