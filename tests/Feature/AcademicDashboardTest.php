@@ -12,7 +12,7 @@ class AcademicDashboardTest extends TestCase
     {
         $this->get('/')->assertOk()
             ->assertSee('Academic Analytics Overview · ProSpective')
-            ->assertSee('An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chairs')
+            ->assertSee('An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chair</p>', false)
             ->assertSee('prospective-logo.png')
             ->assertSee('Academic Filters')
             ->assertSee('Academic Performance Monitoring')

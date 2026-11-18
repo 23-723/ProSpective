@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @php($systemDescription = 'An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chairs')
+    @php($systemDescription = 'An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chair')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ config('app.name') }}. {{ $systemDescription }}. Academic case-study prototype using demonstration data.">

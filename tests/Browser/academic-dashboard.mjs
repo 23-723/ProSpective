@@ -180,7 +180,7 @@ try {
 
     const initial = (await state()).data;
     assert.equal(await text('.brand strong'), 'ProSpective');
-    assert.equal(await text('.hero-heading p'), 'An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chairs');
+    assert.equal(await text('.hero-heading p'), 'An Integrated Academic Performance and Teaching Effectiveness Analytics and Decision Support System for Program Chair');
     await until(() => onPage(() => {
         const logo = document.querySelector('.brand-mark');
         const favicon = document.querySelector('link[rel="icon"]');
